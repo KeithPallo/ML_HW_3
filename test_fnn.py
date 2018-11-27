@@ -62,7 +62,7 @@ class TestFNN(unittest.TestCase):
         print('\n' + '=' * 50 + '\n')
         print("Your forward propagation is correct!")
         print('\n' + '=' * 50 + '\n')
-
+    
     def test_backprop(self):
         # Use gradient check to test on the tiny mnist
         # subset.
